@@ -9,13 +9,14 @@
     <meta name="keywords" content="环宇，环宇'blog">
   
   <meta name="description" content="hexo + github 搭建个人博客 node环境配置##linux操作系统1浏览器打开https://nodejs.org ，下载10.14.2版本的压缩包2，默认下载到/root/下载 路径下，解压：1tar -xf node-v10.14.2-linux-x6 4.tar 3,创建node和npm的软连接(为了能够全局使用node/npm命令)1234ln-s/root/下载/node-">
+<meta name="keywords" content="hexo,域名,github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="笔记">
 <meta property="og:url" content="http://localhost:4000/2018/12/24/笔记/index.html">
 <meta property="og:site_name" content="环宇">
 <meta property="og:description" content="hexo + github 搭建个人博客 node环境配置##linux操作系统1浏览器打开https://nodejs.org ，下载10.14.2版本的压缩包2，默认下载到/root/下载 路径下，解压：1tar -xf node-v10.14.2-linux-x6 4.tar 3,创建node和npm的软连接(为了能够全局使用node/npm命令)1234ln-s/root/下载/node-">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-26T01:28:22.761Z">
+<meta property="og:updated_time" content="2018-12-26T07:15:28.737Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="笔记">
 <meta name="twitter:description" content="hexo + github 搭建个人博客 node环境配置##linux操作系统1浏览器打开https://nodejs.org ，下载10.14.2版本的压缩包2，默认下载到/root/下载 路径下，解压：1tar -xf node-v10.14.2-linux-x6 4.tar 3,创建node和npm的软连接(为了能够全局使用node/npm命令)1234ln-s/root/下载/node-">
@@ -94,7 +95,7 @@
                         <a title="环宇" target="_blank" href="//huanyu10.cn">
                             <i class="fa fa-home fa-2x"></i></a>
                     
-                        <a title="Github" target="_blank" href="//github.com/huanyu10">
+                        <a title="Github" target="_blank" href="//github.com/wongminho">
                             <i class="fa fa-github fa-2x"></i></a>
                     
                         <a title="Weibo" target="_blank" href="//weibo.com/WongMinHo">
@@ -117,6 +118,15 @@
     </h1>
     <div class="post-title-bar">
       <ul>
+          
+              <li>
+                  <i class="fa fa-book"></i>
+                  
+                      <a href="/categories/笔记/">笔记</a>
+                  
+                      <a href="/categories/教程/">教程</a>
+                  
+              </li>
           
         <li>
           <i class="fa fa-calendar"></i>  2018-12-24
@@ -147,7 +157,7 @@
 <p>##进入blog目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure></p>
 <p>##安装项目依赖包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmp install</span><br></pre></td></tr></table></figure></p>
 <p>##启动项目服务<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></p>
-<p>##预览项目<br>在浏览器地址栏输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 回车访问</p>
+<p>##预览项目<br>在浏览器地址栏输入<a href="http://localhost:4000">http://localhost:4000</a> 回车访问</p>
 <p>##编译代码<br>通过hexo框架将md格式的文档转换为html+css+js<br>hexo g</p>
 <p>##推送<br>１，安装deploy依赖包<br>npm install hexo-deployer-git –save<br>２，上传<br>hexo d</p>
 <p>##清理缓存<br>hexo clean</p>
@@ -160,7 +170,7 @@
 
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2018年12月26日 09:28</p>
+        <p>最后更新： 2018年12月26日 15:15</p>
         <p>原始链接： <a class="post-url" href="/2018/12/24/笔记/" title="笔记">http://localhost:4000/2018/12/24/笔记/</a></p>
         <footer>
             <a href="http://localhost:4000">
@@ -218,7 +228,7 @@
     <div class="post-share-list" id="share-list">
         <ul class="share-icons">
           <li>
-            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:4000/2018/12/24/笔记/&title=《笔记》 — 环宇&pic=http://localhost:4000images/logo.png" data-title="微博">
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:4000/2018/12/24/笔记/&title=《笔记》 — 环宇&pic=/images/blog.jpg" data-title="微博">
               <i class="fa fa-weibo"></i>
             </a>
           </li>
@@ -262,6 +272,17 @@
         <ul class="article-footer-menu">
             
             
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/hexo/" class="color5">hexo</a>
+      
+    <a href="/tags/域名/" class="color3">域名</a>
+      
+    <a href="/tags/github/" class="color2">github</a>
+      
+  </li>
+
         </ul>
         
     </footer>
@@ -377,10 +398,10 @@
 <div class="sidebar-menu-box" id="sidebar-menu-box">
     <div class="sidebar-menu-box-container">
         <div id="sidebar-menu-box-categories">
-            
+            <a class="category-link" href="/categories/笔记/">笔记</a><a class="category-link" href="/categories/笔记/教程/">教程</a>
         </div>
         <div id="sidebar-menu-box-tags">
-            
+            <a href="/tags/giehub/" style="font-size: 10px;">giehub</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/域名/" style="font-size: 20px;">域名</a>
         </div>
     </div>
     <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
@@ -413,7 +434,7 @@
     <div class="mobile-header-tag-container">
         <span class="title">Tags</span>
         <div id="mobile-header-container-tags">
-            
+            <a href="/tags/giehub/" style="font-size: 10px;">giehub</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/域名/" style="font-size: 20px;">域名</a>
         </div>
     </div>
 </div>
