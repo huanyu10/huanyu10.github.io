@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="环宇">
 <meta property="og:description" content="hexo + github 搭建个人博客 node环境配置##linux操作系统1浏览器打开https://nodejs.org ，下载10.14.2版本的压缩包2，默认下载到/root/下载 路径下，解压：1tar -xf node-v10.14.2-linux-x6 4.tar 3,创建node和npm的软连接(为了能够全局使用node/npm命令)1234ln-s/root/下载/node-">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-24T09:30:06.182Z">
+<meta property="og:updated_time" content="2018-12-25T09:08:49.265Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="笔记">
 <meta name="twitter:description" content="hexo + github 搭建个人博客 node环境配置##linux操作系统1浏览器打开https://nodejs.org ，下载10.14.2版本的压缩包2，默认下载到/root/下载 路径下，解压：1tar -xf node-v10.14.2-linux-x6 4.tar 3,创建node和npm的软连接(为了能够全局使用node/npm命令)1234ln-s/root/下载/node-">
@@ -148,12 +148,18 @@
 <p>##安装项目依赖包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmp install</span><br></pre></td></tr></table></figure></p>
 <p>##启动项目服务<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></p>
 <p>##预览项目<br>在浏览器地址栏输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 回车访问</p>
+<p>##编译代码<br>通过hexo框架将md格式的文档转换为html+css+js<br>hexo g</p>
+<p>##推送<br>１，安装deploy依赖包<br>npm install hexo-deployer-git –save<br>２，上传<br>hexo d</p>
+<p>##清理缓存<br>hexo clean</p>
+<p>git pull 将本地与服务器同步<br>git push 将服务器与本地同步</p>
+<p>htmler.cn  老师博客</p>
 <p>htmler.cn</p>
 <p>#回家之后<br>1，安装node<br>2，安装脚手架<br>3，安装git<br> 打开<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a> 下载git安装包并安装<br>4，初始化项目<br>在桌面空白区域鼠标右键选择“git bash here”<br>git init blog<br>5，进入blog<br>cd blog<br>6，安装依赖<br>nup install<br>7，启动服务<br>hexo s<br>8，预览<br>9，切换主题<br>浏览器打开<a href="http://www.hexo.io，" target="_blank" rel="noopener">www.hexo.io，</a> 选择主题，搜索栏搜索“miho”<br>在blog所在路径：<br>git clone <a href="https://github.com/WongMinHo/hexo-theme-miho.git" target="_blank" rel="noopener">https://github.com/WongMinHo/hexo-theme-miho.git</a> themes/miho<br>找到 blog 目录的_config.yml,修改theme：miho<br>10.换图<br>网站图标：blog/themes/miho/source<br>其他图：blog/themes/miho/source/images</p>
+<p>  hexo g 编译<br>  hexo d 上传<br>  done:git<br>  手机地址栏访问：用户名.github.io</p>
 
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2018年12月24日 17:30</p>
+        <p>最后更新： 2018年12月25日 17:08</p>
         <p>原始链接： <a class="post-url" href="/2018/12/24/笔记/" title="笔记">http://yoursite.com/2018/12/24/笔记/</a></p>
         <footer>
             <a href="http://yoursite.com">
